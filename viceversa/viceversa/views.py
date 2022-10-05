@@ -7,5 +7,5 @@ def about(request):
 def home(request):
     return HttpResponse('My home')
 
-# def home(request):
-#     return render(request, 'home.html', {'greeting': 'Hello'})
+def home(request):
+    return render(request, 'home.html', {'greeting': 'Hello'})
